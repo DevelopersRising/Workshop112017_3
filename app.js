@@ -8,5 +8,7 @@ function changeText() {
     root.innerHTML = inputField.value;
 };
 
-
+function incrementOtherButton() {
+    button2.innerHTML += '1';
+}
 
